@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">MCODE</h1>
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">ABOUT</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">SKILLS</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#">PROJECTS</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#">CONTACT</a>
+            </nav>
+
+            <a href="Angelina.pdf" target="_blank">
+                <button class="btn-signing">RESUME</button>
+            </a>
+            
+        </header>
+
+        <main>
+            <div class="content">
+                <div class="tag-box">
+                    <div class="tag">LET’S BUILD SOMETHING &wedbar;</div>
+                </div>
+                <h1>BUILDING MODERN<br> WEB EXPERIENCES </h1>
+                <div class="description">
+                    <p>Hey, I'm Angelina</p>
+                    <p>I'm a frontend developer who turns ideas into interactive, responsive websites.
+                        From sleek UIs to smooth user experiences, I focus on clean code, performance, and modern design.</p>
+                </div>
+                <div class="buttons">
+                    <a href="Angelina.pdf" target="_blank" class="btn-get-started">Download CV &gt;</a>
+                    <a href="#" class="btn-signing-main">Contact me &gt;</a>
+                </div>
+            </div>
+        </main>
+
+        <spline-viewer class="robot-3d" url="https://prod.spline.design/ItmOAzDnzAol4YPu/scene.splinecode"></spline-viewer>
+
+    </div>
+
+    
+    
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.90/build/spline-viewer.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
